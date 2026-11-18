@@ -111,6 +111,7 @@ export default function CurriculoPage() {
           ))}
         </div>
       </section>
+      
         </body>
     
   );

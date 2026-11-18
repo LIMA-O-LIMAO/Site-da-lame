@@ -1,5 +1,6 @@
 
 import Navbar from "../componest/navbar";
+import Footer from "../componest/rodape"
 export default function CurriculoPage() {
   return (
      <body>
@@ -145,13 +146,10 @@ export default function CurriculoPage() {
 
         </div>
 
-        {/* Rodapé */}
-        <footer className="py-8 text-center text-sm text-slate-500">
-          Currículo acadêmico e profissional
-        </footer>
 
       </div>
     </main>
+            <Footer/>
     </body>
   );
 }
